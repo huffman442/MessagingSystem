@@ -80,16 +80,16 @@ namespace MessagingSystem
                 }
                 catch (FormatException e)
                 {
-                    Console.WriteLine("please input a number!");
+                    printErrorMessage();
                     dispatchMenuChoice(menu().ToLower());
                 }
-                if (messageNumber < messages.Count)
+                if (messageNumber < messages.Count && messageNumber > 0)
                 {
                     readMessage(messageNumber);
                 }
                 else
                 {
-                    Console.WriteLine("You didn't enter a valid message number please try again, or see list of all messages");
+                    printErrorMessage();
                     dispatchMenuChoice(menu().ToLower());
                 }
             }
@@ -103,7 +103,7 @@ namespace MessagingSystem
             }
             else
             {
-                Console.WriteLine("You didn't enter a valid choice, please choose again");
+                printErrorMessage();
                 dispatchMenuChoice(menu().ToLower()) ;
             }
             
@@ -122,6 +122,11 @@ namespace MessagingSystem
         private static void readMessage(int id)
         {
             messages[id].printMessage();
+        }
+
+        private static void printErrorMessage()
+        {
+            Console.WriteLine("You didn't enter a valid choice, please choose again");
         }
     }
 }

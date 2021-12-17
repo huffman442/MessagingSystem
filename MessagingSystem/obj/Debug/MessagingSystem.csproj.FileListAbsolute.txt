@@ -5,3 +5,10 @@ C:\Users\huffm\source\repos\MessagingSystem\MessagingSystem\obj\Debug\MessagingS
 C:\Users\huffm\source\repos\MessagingSystem\MessagingSystem\obj\Debug\MessagingSystem.csproj.CoreCompileInputs.cache
 C:\Users\huffm\source\repos\MessagingSystem\MessagingSystem\obj\Debug\MessagingSystem.exe
 C:\Users\huffm\source\repos\MessagingSystem\MessagingSystem\obj\Debug\MessagingSystem.pdb
+C:\Users\huffm\code-base\MessagingSystem\MessagingSystem\bin\Debug\MessagingSystem.exe.config
+C:\Users\huffm\code-base\MessagingSystem\MessagingSystem\bin\Debug\MessagingSystem.exe
+C:\Users\huffm\code-base\MessagingSystem\MessagingSystem\bin\Debug\MessagingSystem.pdb
+C:\Users\huffm\code-base\MessagingSystem\MessagingSystem\obj\Debug\MessagingSystem.csprojAssemblyReference.cache
+C:\Users\huffm\code-base\MessagingSystem\MessagingSystem\obj\Debug\MessagingSystem.csproj.CoreCompileInputs.cache
+C:\Users\huffm\code-base\MessagingSystem\MessagingSystem\obj\Debug\MessagingSystem.exe
+C:\Users\huffm\code-base\MessagingSystem\MessagingSystem\obj\Debug\MessagingSystem.pdb
